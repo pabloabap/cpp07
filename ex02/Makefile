@@ -6,14 +6,14 @@
 #    By: pabad-ap <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/30 17:20:06 by pabad-ap          #+#    #+#              #
-#    Updated: 2025/01/30 17:20:08 by pabad-ap         ###   ########.fr        #
+#    Updated: 2025/01/30 18:21:20 by pabad-ap         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= array
 
 CPP		= c++
-CPP_FLAGS	= -Wall -Wextra -Werror
+CPP_FLAGS	= -Wall -Wextra -Werror -std=c++98
 
 HEADERS		= Array.hpp
 SRC		= main.cpp

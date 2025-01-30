@@ -6,14 +6,14 @@
 #    By: pabad-ap <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/30 17:22:12 by pabad-ap          #+#    #+#              #
-#    Updated: 2025/01/30 17:22:14 by pabad-ap         ###   ########.fr        #
+#    Updated: 2025/01/30 18:22:17 by pabad-ap         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= iter
 
 CPP		= c++
-CPP_FLAGS	= -Wall -Wextra -Werror
+CPP_FLAGS	= -Wall -Wextra -Werror -std=c++98
 
 HEADERS		= iter.hpp
 SRC		= main.cpp

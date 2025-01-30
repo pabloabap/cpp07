@@ -6,7 +6,7 @@
 /*   By: pabad-ap <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/30 17:22:07 by pabad-ap          #+#    #+#             */
-/*   Updated: 2025/01/30 17:22:10 by pabad-ap         ###   ########.fr       */
+/*   Updated: 2025/01/30 18:26:06 by pabad-ap         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,9 @@ int	main( void )
 	iter( carr, sizeof(carr) / sizeof(carr[0]), &lowerCase );
 	iter( carr, sizeof(carr) / sizeof(carr[0]), &printItem );
 	std::cout << "--------------------" << std::endl;
-	iter({}, 0, &plusOne );
+	int	varr[0] = {};
+	iter(varr, 0, &plusOne );
+
 	return ( 0 );
 }
 
