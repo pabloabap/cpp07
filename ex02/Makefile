@@ -1,11 +1,11 @@
 # CABECERA
 
-NAME		= whatever
+NAME		= array
 
 CPP		= c++
 CPP_FLAGS	= -Wall -Wextra -Werror
 
-HEADERS		= whatever.hpp
+HEADERS		= Array.hpp
 SRC		= main.cpp
 OBJ		= $(SRC:.cpp=.o)
 
@@ -14,7 +14,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(CPP) $(CPP_FLAGS) $(OBJ) -o $(NAME)
 	
-%.o:%.cpp $(HEADERS) Makefile
+%.o: %.cpp $(HEADERS) Makefile
 	$(CPP) $(CPP_FLAGS) -c $< -o $@
 
 clean:
